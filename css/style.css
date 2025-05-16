@@ -38,6 +38,7 @@ header h1 {
 }
 
 /* input tareas */
+
 .tareas {
     width: 50%;
     height: 50px;
@@ -58,8 +59,6 @@ header h1 {
     transform: scale(110%);
 }
 
-
-
 #ingresarTarea{
     margin-top: 20px;
     width: 200px;
@@ -68,4 +67,10 @@ header h1 {
     border: none;
     color: white;
     background-color: rgb(99, 20, 34);
+    transition: all .3s ease;
+}
+#ingresarTarea:hover{
+    background-color: rgb(255, 106, 130);
+    color: rgb(74, 24, 24);
+    transform: scale(110%);
 }
